@@ -1,10 +1,12 @@
 
-import './App.css'
+import { ThemeSelector } from './components/ui/ThemeSelector'
 
 function App() {
 
   return (
-   <h4 className='text-blue-300'>Beginning</h4>
+   <h4 className='text-blue-300'>Beginning
+   <ThemeSelector/>
+   </h4>
   )
 }
 
